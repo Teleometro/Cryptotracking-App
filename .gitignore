@@ -1,0 +1,11 @@
+# Ignore Gradle project-specific cache directory
+.gradle
+
+# Ignore Gradle build output directory
+build
+
+/t2/app/bin/
+/task2/app/bin/
+/task2/push
+/task3/bin/
+/task3/saves.db

@@ -1,0 +1,41 @@
+.root {
+    -fx-base: #333541;
+    -fx-accent: #c09726 ;
+    -fx-default-button: #25282b ;
+    -fx-focus-color: #d9e6ec;
+    -fx-faint-focus-color: #efefef22;
+    
+}
+
+.dialog {
+    -fx-base: #333541;
+    -fx-accent: #c09726 ;
+    -fx-default-button: #25282b ;
+    -fx-focus-color: #d9e6ec;
+    -fx-faint-focus-color: #efefef22;
+    
+}
+
+.hyperlink {
+    -fx-text-fill: #ffd737;
+    -fx-underline: true
+}
+
+.table-view {
+    -fx-background-color: #3b3b42 ;
+
+}
+
+.table-cell {
+    -fx-background-color: #3b3b42 ;
+    -fx-table-cell-border-color: #776525
+}
+
+.table-cell:filled {
+    -fx-background-color: #595562 ;
+    -fx-text-fill: #DDEEDD
+}
+
+.table-view:row-selection .table-row-cell:selected .table-cell {
+    -fx-background-color: #314c71 ;
+}

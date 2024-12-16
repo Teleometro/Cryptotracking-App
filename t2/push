@@ -1,0 +1,9 @@
+temp=$1
+temp="${temp%\"}"
+temp="${temp#\"}"
+cd ..
+./s.sh
+git commit -am "$temp"
+git push
+echo "commited \"$temp\""
+cd ./t2

@@ -1,0 +1,1 @@
+cp app/src/test/java/task1/AppTest.java task1/ShoppingBasketTest.java
